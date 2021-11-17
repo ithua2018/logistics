@@ -1,10 +1,10 @@
 {
-  "name": "Ithua\/logistics",
+  "name": "ithua\/logistics",
   "description": "查询快递物流轨迹信息",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ithua",
+      "name": "ithua",
       "email": "673509045@qq.com"
     }
   ],
