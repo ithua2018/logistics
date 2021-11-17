@@ -1,0 +1,23 @@
+{
+  "name": "Ithua\/logistics",
+  "description": "查询快递物流轨迹信息",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ithua",
+      "email": "673509045@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6",
+    "mockery/mockery": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ithua\\Logistics\\": "src"
+    }
+  }
+}
