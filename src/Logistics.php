@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Ithua\logistics;
 
-use Ithua\logistics\Exceptions\InvalidArgumentException;
-use Ithua\logistics\Exceptions\NoQueryAvailableException;
+use Ithua\Logistics\Exceptions\InvalidArgumentException;
+use Ithua\Logistics\Exceptions\NoQueryAvailableException;
 
 /**
  * 抓取物流信息.
@@ -36,7 +36,7 @@ class Logistics
     /**
      * 快递渠道工厂
      *
-     * @var \Ithua\logistics\Factory
+     * @var \Ithua\Logistics\Factory
      */
     protected $factory;
 
@@ -69,8 +69,8 @@ class Logistics
      *
      * @param array $channels
      *
-     * @throws \Ithua\logistics\Exceptions\InvalidArgumentException
-     * @throws \Ithua\logistics\Exceptions\NoQueryAvailableException
+     * @throws \Ithua\Logistics\Exceptions\InvalidArgumentException
+     * @throws \Ithua\Logistics\Exceptions\NoQueryAvailableException
      */
     public function query(string $code, $channels = ['yuantong']): array
     {

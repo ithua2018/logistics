@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace Ithua\logistics\Channel;
+namespace Ithua\Logistics\Channel;
 
 class YuantongChannel extends Channel
 {

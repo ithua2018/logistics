@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ithua\logistics\Channel;
-use Ithua\logistics\Config;
-use Ithua\logistics\Traits\HttpRequest;
+namespace Ithua\Logistics\Channel;
+use Ithua\Logistics\Config;
+use Ithua\Logistics\Traits\HttpRequest;
 
 abstract class Channel
 {
@@ -37,7 +37,7 @@ abstract class Channel
     /**
      * 设置请求选项.
      *
-     * @return \Ithua\logistics\Channel\Channel
+     * @return \Ithua\Logistics\Channel\Channel
      */
     public function setRequestOption(array $option): self
     {

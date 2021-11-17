@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 namespace Ithua\logistics;
-use Ithua\logistics\Exceptions\ConfigNotFoundException;
-use Ithua\logistics\Exceptions\ConfigValidateException;
+use Ithua\Logistics\Exceptions\ConfigNotFoundException;
+use Ithua\Logistics\Exceptions\ConfigValidateException;
 
 /**
  * 配置类.

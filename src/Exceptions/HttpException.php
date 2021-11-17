@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Ithua\logistics\Exceptions;
+namespace Ithua\Logistics\Exceptions;
 
 class HttpException extends Exception
 {

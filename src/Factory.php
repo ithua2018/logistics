@@ -5,9 +5,9 @@ declare(strict_types=1);
 
 namespace Ithua\logistics;
 
-use Ithua\logistics\Exceptions\InvalidArgumentException;
-use Ithua\logistics\Exceptions\Exception;
-use Ithua\logistics\Channel\Channel;
+use Ithua\Logistics\Exceptions\InvalidArgumentException;
+use Ithua\Logistics\Exceptions\Exception;
+use Ithua\Logistics\Channel\Channel;
 
 class Factory
 {
@@ -18,7 +18,7 @@ class Factory
     /**
      * 获取默认查询类名称.
      *
-     * @throws \Ithua\logistics\Exceptions\Exception
+     * @throws \Ithua\Logistics\Exceptions\Exception
      */
     public function getDefault(): string
     {
@@ -44,7 +44,7 @@ class Factory
      *
      * @return mixed
      *
-     * @throws \Ithua\logistics\Exceptions\InvalidArgumentException
+     * @throws \Ithua\Logistics\Exceptions\InvalidArgumentException
      */
     public function createChannel(string $name = '')
     {

@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 
-namespace Ithua\logistics\Traits;
+namespace Ithua\Logistics\Traits;
 
-use Ithua\logistics\Exceptions\HttpException;
+use Ithua\Logistics\Exceptions\HttpException;
 
 trait HttpRequest
 {
@@ -61,7 +61,7 @@ trait HttpRequest
      *
      * @return string
      *
-     * @throws \Ithua\logistics\Exceptions\HttpException
+     * @throws \Ithua\Logistics\Exceptions\HttpException
      */
     protected function get($url, $params, array $option = [])
     {
@@ -85,7 +85,7 @@ trait HttpRequest
      *
      * @return bool|string
      *
-     * @throws \Ithua\logistics\Exceptions\HttpException
+     * @throws \Ithua\Logistics\Exceptions\HttpException
      */
     protected function post($url, $params, array $option = [])
     {
