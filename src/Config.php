@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ithua\logistics;
+namespace Ithua\Logistics;
 use Ithua\Logistics\Exceptions\ConfigNotFoundException;
 use Ithua\Logistics\Exceptions\ConfigValidateException;
 
